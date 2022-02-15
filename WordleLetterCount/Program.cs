@@ -79,11 +79,11 @@ namespace Wordle
                     }
                 }
             }
-            Console.WriteLine("Most common letters: " + arr1[0].ToString() + " " + arr2[0].ToString() + " " + arr3[0].ToString() + " " + arr4[0].ToString() + " " + arr5[0].ToString());
-            Console.WriteLine("2nd common letters:  " + arr1[1].ToString() + " " + arr2[1].ToString() + " " + arr3[1].ToString() + " " + arr4[1].ToString() + " " + arr5[1].ToString());
-            Console.WriteLine("3rd common letters:  " + arr1[2].ToString() + " " + arr2[2].ToString() + " " + arr3[2].ToString() + " " + arr4[2].ToString() + " " + arr5[2].ToString());
-            Console.WriteLine("4th common letters:  " + arr1[3].ToString() + " " + arr2[3].ToString() + " " + arr3[3].ToString() + " " + arr4[3].ToString() + " " + arr5[3].ToString());
-            Console.WriteLine("5th common letters:  " + arr1[4].ToString() + " " + arr2[4].ToString() + " " + arr3[4].ToString() + " " + arr4[4].ToString() + " " + arr5[4].ToString());
+            Console.WriteLine("Most common letters: " + arr1[0].Key.ToString() + " " + arr2[0].Key.ToString() + " " + arr3[0].Key.ToString() + " " + arr4[0].Key.ToString() + " " + arr5[0].Key.ToString());
+            Console.WriteLine("2nd common letters:  " + arr1[1].Key.ToString() + " " + arr2[1].Key.ToString() + " " + arr3[1].Key.ToString() + " " + arr4[1].Key.ToString() + " " + arr5[1].Key.ToString());
+            Console.WriteLine("3rd common letters:  " + arr1[2].Key.ToString() + " " + arr2[2].Key.ToString() + " " + arr3[2].Key.ToString() + " " + arr4[2].Key.ToString() + " " + arr5[2].Key.ToString());
+            Console.WriteLine("4th common letters:  " + arr1[3].Key.ToString() + " " + arr2[3].Key.ToString() + " " + arr3[3].Key.ToString() + " " + arr4[3].Key.ToString() + " " + arr5[3].Key.ToString());
+            Console.WriteLine("5th common letters:  " + arr1[4].Key.ToString() + " " + arr2[4].Key.ToString() + " " + arr3[4].Key.ToString() + " " + arr4[4].Key.ToString() + " " + arr5[4].Key.ToString());
             Console.WriteLine();
             Console.WriteLine("Possible Starting words:");
             for (int i = 0;i < answers.Count-4; i=i+5)
